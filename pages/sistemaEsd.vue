@@ -1,7 +1,7 @@
 <template>
     <div class="aplicaciones_container flex p-0">
     <Menu />
-    <div class="scroll_cont_aplicaciones ml-48"><Mod_sistemaDiseñoEsd /></div>
+    <div class="scroll_cont_aplicaciones ml-48"><Mod_sistemaDisenoEsd /></div>
     
     
     </div>
