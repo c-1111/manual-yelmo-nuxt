@@ -1,0 +1,18 @@
+<template>
+  <div class="notion_renderer_holder pb-24 max-w-[1300px]">
+    <NotionRenderer :blockMap="data" prism />
+  </div>
+</template>
+  
+
+<script setup lang="ts">
+const { $notion } = useNuxtApp()
+const { data } = await useAsyncData("notion", () => $notion.getPageBlocks("e1b623b74bc4406e816227ccc6d461d2"))
+</script>
+
+
+<style>
+/* @import "vue3-notion/dist/style.css";  */
+@import "prismjs/themes/prism.css";
+@import "katex/dist/katex.min.css";
+</style>
