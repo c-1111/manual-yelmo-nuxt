@@ -13,9 +13,6 @@
     import Mod_sistemaDisenoEsd from '~/components/mod_sistemaDisenoEsd.vue';
     
     
-    
-    
-    
     </script>
     
     
