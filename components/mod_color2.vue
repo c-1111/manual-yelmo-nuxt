@@ -111,7 +111,7 @@
     @apply pb-2
 
 .caption_submarca
-    @apply mb-16 font-semibold
+    @apply mb-16 font-semibold text-cine_yelmo_dark_blue
 
 .submarca_group
     @apply flex flex-col pb-10

@@ -39,6 +39,11 @@
                         class="index_group_title text-cine_yelmo_white bg-cine_yelmo_dark_blue border-cine_yelmo_dark_blue border-[1px] py-1 rounded-3xl px-5 ">
                         APLICACIONES</div>
                 </NuxtLink>
+                <NuxtLink to="/sistemaEsd">
+                    <div
+                        class="index_group_title text-cine_yelmo_white bg-cine_yelmo_dark_blue border-cine_yelmo_dark_blue border-[1px] py-1 rounded-3xl px-5 ">
+                        SISTEMA WEB e/s/d</div>
+                </NuxtLink>
             </div>
         </div>
 </template>

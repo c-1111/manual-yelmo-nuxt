@@ -81,7 +81,7 @@ import Mod_typography from "/components/mod_typography.vue";
 
 
 useHead({
-    title: "hola",
+    title: "cine yelmo | manual de identidad",
 })
 
 </script>
@@ -93,6 +93,6 @@ useHead({
 
 
 .module
-    @apply border-t-cine_yelmo_dark_blue border-t-2 pl-40 pr-28
+    @apply border-t-cine_yelmo_dark_blue border-t-2 pl-32 pr-24
 </style>
 
