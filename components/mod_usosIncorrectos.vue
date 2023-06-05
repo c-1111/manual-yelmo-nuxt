@@ -45,7 +45,7 @@
     </div>
 </template>
 
-<style lang="sass">
+<style lang="sass" scoped>
 img
     @apply max-w-[100px]
     

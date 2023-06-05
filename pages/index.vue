@@ -3,9 +3,9 @@
 
         <Menu />
         <div class="scroll_container flex flex-col w-full">
-                <scroll_module_presentation />
-                <Module_intro />
-                <Mod_planteamiento />
+            <scroll_module_presentation />
+            <Module_intro />
+            <Mod_planteamiento />
 
             <div class="module logo_scrollto">
                 <mod_logotipo1 />
@@ -79,6 +79,10 @@ import Mod_typography from "/components/mod_typography.vue";
 // import Module_aplicacionesTitle from "/components/module_aplicacionesTitle.vue";
 // import Mod_aplicacionesNotion from "/components/mod_aplicacionesNotion.vue";
 
+
+useHead({
+    title: "hola",
+})
 
 </script>
 

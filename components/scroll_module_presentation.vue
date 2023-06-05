@@ -415,7 +415,7 @@
 <style lang="sass">
 
 .pres_container
-    background-image: url(/images/rectangle_fondo_pres.svg)
+    background-image: url("/images/Rectangle_fondo_pres.svg")
     background-size: 100%
     @apply pb-40
     

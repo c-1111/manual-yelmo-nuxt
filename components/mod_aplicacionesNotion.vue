@@ -15,4 +15,7 @@ const { data } = await useAsyncData("notion", () => $notion.getPageBlocks("e1b62
 /* @import "vue3-notion/dist/style.css";  */
 @import "prismjs/themes/prism.css";
 @import "katex/dist/katex.min.css";
+img {
+  max-width: 100%;
+}
 </style>
