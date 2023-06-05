@@ -10,7 +10,7 @@
     
     <script setup>
     import Menu from '~/components/menu.vue';
-    import Mod_sistemaDiseñoEsd from '~/components/mod_sistemaDiseñoEsd.vue';
+    import Mod_sistemaDisenoEsd from '~/components/mod_sistemaDisenoEsd.vue';
     
     
     
