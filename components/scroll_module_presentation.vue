@@ -1,12 +1,8 @@
 <template>
     <div class="pres_container flex flex-col pl-16">
         <div class="top_container flex justify-between w-full">
-            <div class="left_presentation_module pt-52">
-                <p class="h1 w-[25rem] mb-10">Bienvenido a la nueva identidad de cine yelmo</p>
-                <p class="body_blanco w-[23rem] mb-40">This book contains everything there is to know about Biteable. How we
-                    look, feel, This book contains everything there is to know about Biteable. How we look, feel, sound,
-                    speak
-                    and move. Come back regularly </p>
+            <div class="left_presentation_module pt-28">
+                <p class="h1 w-[25rem] mb-80">Bienvenido a la nueva identidad de cine yelmo</p>
                 <div class="logo_principal">
                     <svg xmlns="http://www.w3.org/2000/svg" width="175" height="210" fill="none" viewBox="0 0 175 210">
                         <path fill="#fff"
@@ -402,7 +398,7 @@
 
             </div>
         </div>
-        <div class="valores_container flex flex-col mt-40 w-full">
+        <div class="valores_container flex flex-col mt-10 w-full">
             <div class="valores title h1"> nuestros valores</div>
             <div class="valores_pills flex w-full gap-10 mt-16">
                 <div class="valor_pill h3_white ">DISPONIBILIDAD</div>
@@ -419,7 +415,7 @@
 <style lang="sass">
 
 .pres_container
-    background-image: url(/public/images/rectangle_fondo_pres.svg)
+    background-image: url(/images/rectangle_fondo_pres.svg)
     background-size: 100%
     @apply pb-40
     

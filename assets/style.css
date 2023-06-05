@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:'zurich';
+  src: url('/fonts/Zurich.ttf') format('truetype');
+  src: url('/fonts/Zurich.woff') format('woff');
+  src: url('/fonts/Zurich.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'zurich';
+  src: url('/fonts/ZurichBT.woff2') format('woff2'),
+      url('/fonts/ZurichBT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'zurich';
+  src: url('/fonts/ZurichLightBT.woff2') format('woff2'),
+      url('/fonts/ZurichLightBT.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'zurich';
+  src: url('/fonts/ZurichBoldBT.woff2') format('woff2'),
+      url('/fonts/ZurichBoldBT.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  font-family: zurich;
+  /* border: solid 1px tomato; */
+}
+
+
+.h1 {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: white;
+}
+.h1_azul {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  @apply text-cine_yelmo_dark_blue
+}
+
+.h2 {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  @apply text-cine_yelmo_dark_blue
+}
+.h2_white {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  @apply text-cine_yelmo_white
+}
+
+.h3 {
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  @apply text-cine_yelmo_dark_blue
+}
+.h3_white {
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  @apply text-cine_yelmo_white
+}
+
+.body_blanco {
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  @apply text-cine_yelmo_white
+}
+.body_azul {
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  @apply text-cine_yelmo_dark_blue
+}
+
+.index_group_style{
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 16px;
+  @apply text-cine_yelmo_dark_blue border-cine_yelmo_dark_blue border-[1px] py-2 rounded-3xl  px-5 bg-white
+}
+.index_group_style:hover {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 16px;
+  @apply text-cine_yelmo_white border-cine_yelmo_dark_blue border-[1px] py-2 rounded-3xl  px-5 bg-cine_yelmo_dark_blue
+}
+
+.index_item_style{
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 13px;
+  padding-left: 1rem;
+
+  @apply text-cine_yelmo_dark_blue
+}
+
+/*estilos de párrafo*/
+
+.txt{
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  @apply text-cine_yelmo_dark_blue w-[55ch] 
+}
+
+
+
+
+
+
+/* CAMBIOS SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0d2; 
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7e7e7ec9; 
+  border-radius: 99px;
+}
+
+
+
+
+
+/*CLASES PARA PLUGIN NOTION */
+
+h1 {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: white;
+}
+
+
+h2 {
+  font-family:'zurich';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  @apply text-cine_yelmo_dark_blue
+}
+
+
+h3 {
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  @apply text-cine_yelmo_dark_blue
+}
+.notion-text {
+  font-family:'zurich';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  width: 70ch;
+  margin-bottom: 1rem;
+  @apply text-cine_yelmo_dark_blue
+
+
+}

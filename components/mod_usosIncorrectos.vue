@@ -22,21 +22,21 @@
             </div>
             <div class="usos_right flex flex-col gap-4">
                 <div class="usos_row flex gap-4">
-                    <img src="../public/images/usos01.png" alt="">
-                    <img src="../public/images/usos02.png" alt="">
-                    <img src="../public/images/usos03.png" alt="">
+                    <img src="/images/usos01.png" alt="">
+                    <img src="/images/usos02.png" alt="">
+                    <img src="/images/usos03.png" alt="">
 
                 </div>
                 <div class="usos_row flex gap-4">
-                    <img src="../public/images/usos03.png" alt="">
-                    <img src="../public/images/usos04.png" alt="">
-                    <img src="../public/images/usos05.png" alt="">
+                    <img src="/images/usos03.png" alt="">
+                    <img src="/images/usos04.png" alt="">
+                    <img src="/images/usos05.png" alt="">
 
                 </div>
                 <div class="usos_row flex gap-4">
-                    <img src="../public/images/usos06.png" alt="">
-                    <img src="../public/images/usos07.png" alt="">
-                    <img src="../public/images/usos08.png" alt="">
+                    <img src="/images/usos06.png" alt="">
+                    <img src="/images/usos07.png" alt="">
+                    <img src="/images/usos08.png" alt="">
                 </div>
 
 

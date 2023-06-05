@@ -1,5 +1,5 @@
 <template>
-  <div class="notion_renderer_holder pb-24 max-w-[1300px]">
+  <div class="notion_renderer_holder pb-24">
     <NotionRenderer :blockMap="data" prism />
   </div>
 </template>
